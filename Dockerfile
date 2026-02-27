@@ -4,8 +4,8 @@ FROM node:18-alpine
 # Establecer el directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Copiar el archivo package.json y package-lock.json
-COPY package.json package-lock.json ./
+# Copiar el archivo package.json
+COPY package.json ./
 
 # Instalar las dependencias
 RUN npm install
