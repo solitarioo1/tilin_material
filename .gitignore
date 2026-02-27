@@ -47,3 +47,7 @@ Dockerfile
 # Local files
 *.log
 .env.local
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
